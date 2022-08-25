@@ -28,12 +28,12 @@ function printStudent(student) {
 
   if (media >= 7) {
 
-    return `Parabéns, senhor(a)  ${student.name}!!! Sua média final foi: ${media}`
+    return `Parabéns, senhor(a)  ${student.name}!!! \n Sua média final foi: ${media}`
   }
 
   else {
 
-    return `Infelizmente, senhor(a) ${student.name}, não foi dessa vez. Sua média final foi: ${media}`
+    return `Infelizmente, senhor(a) ${student.name}, não foi dessa vez.\n Sua média final foi: ${media}`
   }
 
 }
